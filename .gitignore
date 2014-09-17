@@ -1,0 +1,4 @@
+node_modules
+src/global-components
+.sass-cache
+.tmp

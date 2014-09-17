@@ -1,0 +1,46 @@
+<!-- COMPONENT LEVEL: HTML -->
+<!-- example-component -->
+
+<!-- BEM BLOCK -->
+<section class="example-component">
+
+	<!-- Demo content to be removed -->
+		<img src="images/primer-logo.png" alt="Primer logo" />
+		<h1>Your project has been generated!</h1>
+		<h3>Check out the <a href="https://code.ldschurch.org/stash/projects/PRIMER/repos/generator-primer/" target="_blank">Primer documentation</a> for more info.</h3>
+
+		<hr>
+
+		<!-- EXAMPLES -->
+		<!-- Examples with dummy data from fake api -->
+		<h2>DUMMY DATA EXAMPLES:</h2>
+
+		<h2>Header:</h2>
+		<h3>{{ header }}</h3>
+
+		<h2>Date:</h2>
+		<h5>{{ date }}</h5>
+
+		<h2>Sentence:</h2>
+		<p>{{ sentence }}
+
+		<h2>Paragraph:</h2>
+		<p>{{ paragraph }}</p>
+
+		<h2>Full image:</h2>
+		<img src="{{ full }}" alt="Full" />
+
+		<h2>Thumbnail image:</h2>
+		<img src="{{ thumb }}" alt="Thumb" />
+
+		<h2>Repeating items:</h2>
+		{{#each links}}
+		<a href="{{ href }}">
+			<ul>
+				<li>{{ title }}</li>
+				<li>{{ subtitle }}</li>
+			</ul>
+		</a>
+		{{/each}}
+
+</section>

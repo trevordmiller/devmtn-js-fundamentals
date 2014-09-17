@@ -1,0 +1,15 @@
+{
+	"name": "devmtn-js-fundamentals-1",
+	"private": true,
+	"dependencies": {
+		 "handlebars": "~1.3.0",
+		 "primer-style-reset": "https://code.ldschurch.org/stash/scm/primer/primer-style-reset.git",
+		 "primer-get-data": "https://code.ldschurch.org/stash/scm/primer/primer-get-data.git" 
+	},
+	"main": [
+		"./gruntfile.js",
+		"./src/main.scss",
+		"./src/main.js"
+	],
+	"ignore": []
+}
