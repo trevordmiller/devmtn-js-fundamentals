@@ -1,5 +1,5 @@
-# Devmtn js fundamentals 1
-DevMountain teaching resources to help students learn core JavaScript principles such as variables, if statements, operators, and functions.
+# DevMountain JavaScript Fundamentals I
+An HTML slide deck to help teach the DevMountain JavaScript Fundamentals I lesson.
 
 ---
 

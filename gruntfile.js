@@ -47,7 +47,8 @@ module.exports = function(grunt) {
 		// JS FILES
 		srcJsBowerComponentFiles: [
 			'src/global-components/primer-get-data/primer-get-data.js',
-			'src/global-components/handlebars/handlebars.runtime.js'
+			'src/global-components/handlebars/handlebars.runtime.js',
+			'src/global-components/reveal.js/js/reveal.min.js'
 		],
 		srcJsFiles: [
 			'src/main.js',

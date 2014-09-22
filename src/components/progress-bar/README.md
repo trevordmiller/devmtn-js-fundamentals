@@ -1,5 +1,5 @@
-# example-component
-This is an example.
+# progress-bar
+The progress bar at the bottom of the screen.
 
 ---
 

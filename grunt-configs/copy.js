@@ -14,5 +14,11 @@ module.exports = function(grunt) {
 			src: '*.html',
 			dest: 'dist/'
 		},
+		reveal: {
+			expand: true,
+			cwd: 'src/global-components',
+			src: 'reveal.js/css/**/*.css',
+			dest: 'dist'
+		}
 	});
 };

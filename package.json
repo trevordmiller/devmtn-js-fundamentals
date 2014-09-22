@@ -1,5 +1,5 @@
 {
-	"name": "devmtn-js-fundamentals-1",
+	"name": "intro-slide-deck",
 	"private": true,
 	"devDependencies": {
 		"grunt": "^0.4.5",

@@ -1,6 +1,6 @@
 // ================================================================================
 // COMPONENT LEVEL: SASS
-// example-component
+// slide
 // Only contains Sass for this component.
 // ================================================================================
 
@@ -14,16 +14,44 @@
 // COMPONENT LEVEL: BEM BLOCK
 // ------------------------------------------------------------------------------
 
-.example-component {
-	padding: $padding--large;
+.slide {
+
+	// BEM ELEMENTS
+	&__emphasis {
+		color: $color--dark-primary !important;
+	}
 
 	a {
-		@extend %transition--base;
-		color: $color--primary;
+		color: $color--primary !important;
+	}
 
-		&:hover,
-		&:active {
-			color: $color--dark-primary;
+	// BEM MODIFIERS
+	&--section-title {
+		h1 {
+			color: $color--fill !important;
+		}
+
+		* {
+			color: $color--light-primary !important;
+		}
+
+		a {
+			color: $color--fill !important;
+		}
+	}
+
+	&--warning {
+
+		h1 {
+			color: $color--fill !important;
+		}
+
+		* {
+			color: $color--fill !important;
+		}
+
+		a {
+			color: $color--fill !important;
 		}
 	}
 }

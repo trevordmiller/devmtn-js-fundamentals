@@ -1,6 +1,6 @@
 // ================================================================================
 // COMPONENT LEVEL: JS
-// example-component
+// slide
 // Only contains JS for this component.
 // ================================================================================
 
@@ -10,12 +10,12 @@
 // COMPONENT LEVEL: JS MODULE
 // ------------------------------------------------------------------------------
 
-var exampleComponent = (function () {
+var slide = (function () {
 	'use strict';
 
 	// PROPERTIES
 	// Example: private property
-	var privateVar = 'Hello world! Called from the "_example-component.js" component.';
+	var privateVar = 'Hello world! Called from the "_slide.js" component.';
 
 	// METHODS
 	// Example: private method
@@ -43,5 +43,5 @@ var exampleComponent = (function () {
 // Example: using a module's methods and properties
 window.addEventListener('DOMContentLoaded', function() {
 	'use strict';
-	exampleComponent.publicMethod(exampleComponent.publicVar);
+	slide.publicMethod(slide.publicVar);
 });

@@ -43,7 +43,10 @@
 		"Handlebars",				// Handlebars templates
 
 		// PRIMER
-		"Primer"
+		"Primer",
+
+		// REVEALJS
+		"Reveal"
 	],
 
 	// DEVELOPMENT
