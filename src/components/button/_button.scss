@@ -1,6 +1,6 @@
 // ================================================================================
 // COMPONENT LEVEL: SASS
-// trevordmiller-icon
+// button
 // Only contains Sass for this component.
 // ================================================================================
 
@@ -14,9 +14,21 @@
 // COMPONENT LEVEL: BEM BLOCK
 // ------------------------------------------------------------------------------
 
-.trevordmiller-icon {
+.button {
+	@extend %transition--base;
+	border-radius: $border-radius--base;
+	padding: $padding--small $padding--base !important;
+	color: $color--fill !important;
+	background: $color--primary;
 
-	path {
-		fill: $color--fill;
+	&:hover,
+	&:active {
+		background: $color--dark-primary;
 	}
+}
+
+// Reveal specificity override
+.reveal .button {
+	@extend %transition--base;
+	color: $color--fill !important;
 }

@@ -1,6 +1,6 @@
 // ================================================================================
 // COMPONENT LEVEL: SASS
-// trevordmiller-icon
+// time
 // Only contains Sass for this component.
 // ================================================================================
 
@@ -14,9 +14,6 @@
 // COMPONENT LEVEL: BEM BLOCK
 // ------------------------------------------------------------------------------
 
-.trevordmiller-icon {
-
-	path {
-		fill: $color--fill;
-	}
+.time {
+	text-decoration: underline;
 }

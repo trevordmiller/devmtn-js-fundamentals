@@ -16,7 +16,7 @@ helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
   
 
 
-  return "\n		<!-- PROJECT LEVEL: FOOTER -->\n		<!-- Instantiate and compose footer components here -->\n\n		<!-- PROJECT LEVEL: SCRIPTS -->\n		<script src=\"all.min.js\"></script>\n	</body>\n";
+  return "\n		<!-- PROJECT LEVEL: FOOTER -->\n\n		<!-- PROJECT LEVEL: SCRIPTS -->\n		<script src=\"all.min.js\"></script>\n	</body>\n";
   }));
 
 Handlebars.registerPartial("page-top", Handlebars.template(function (Handlebars,depth0,helpers,partials,data) {
@@ -25,7 +25,7 @@ helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
   
 
 
-  return "\n	<head>\n\n		<!-- PROJECT LEVEL: CONFIG -->\n		<title>Intro slide deck</title>\n		<meta name=\"description\" content=\"An HTML slide deck to help introduce Primer during demos and screencasts.\" />\n		<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, minimal-ui\" />\n		<meta charset=\"utf-8\" />\n\n		<!-- REVEALJS STYLE DEPENDENCIES -->\n		<link rel=\"stylesheet\" href=\"reveal.js/css/reveal.min.css\">\n		<link rel=\"stylesheet\" href=\"reveal.js/css/theme/simple.css\" id=\"theme\">\n\n		<!-- FONTS -->\n		<link href='http://fonts.googleapis.com/css?family=Raleway:400,100' rel='stylesheet' type='text/css'>\n\n		<!-- PROJECT LEVEL: STYLES -->\n		<link rel=\"stylesheet\" href=\"all.min.css\" />\n	</head>\n\n	<body>\n\n		<!-- PROJECT LEVEL: HEADER -->\n		<!-- Instantiate and compose header components here -->\n";
+  return "\n	<head>\n\n		<!-- PROJECT LEVEL: CONFIG -->\n		<title>DevMountain | JavaScript Fundamentals: Part 1</title>\n		<meta name=\"description\" content=\"An HTML slide deck to help teach the DevMountain lesson.\" />\n		<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, minimal-ui\" />\n		<meta charset=\"utf-8\" />\n\n		<!-- REVEALJS STYLE DEPENDENCIES -->\n		<link rel=\"stylesheet\" href=\"reveal.js/css/reveal.min.css\">\n		<link rel=\"stylesheet\" href=\"reveal.js/css/theme/simple.css\" id=\"theme\">\n\n		<!-- FONTS -->\n		<link href='http://fonts.googleapis.com/css?family=Raleway:400,100' rel='stylesheet' type='text/css'>\n\n		<!-- PROJECT LEVEL: STYLES -->\n		<link rel=\"stylesheet\" href=\"all.min.css\" />\n	</head>\n\n	<body>\n\n		<!-- PROJECT LEVEL: HEADER -->\n";
   }));
 
 Handlebars.registerPartial("progress-bar", Handlebars.template(function (Handlebars,depth0,helpers,partials,data) {
@@ -70,7 +70,7 @@ helpers = this.merge(helpers, Handlebars.helpers); partials = this.merge(partial
   buffer += "\n	";
   stack1 = self.invokePartial(partials.website, 'website', depth0, helpers, partials, data);
   if(stack1 || stack1 === 0) { buffer += stack1; }
-  buffer += "\n\n</section>\n";
+  buffer += "\n	@trevordmiller\n\n</section>\n";
   return buffer;
   }));
 

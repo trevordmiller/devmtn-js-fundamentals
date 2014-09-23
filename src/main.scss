@@ -26,7 +26,7 @@ $color--light-gray: #cccccc;
 $color--lightest-gray: #efefef;
 
 // BORDER RADIUS
-$border-radius--base: 3px;
+$border-radius--base: 5px;
 
 // SPACING
 $margin--base: 1.3rem;
@@ -95,6 +95,8 @@ $font-family--secondary: Monaco, monospace;
 .reveal h2,
 .reveal h3 {
 	font-weight: $font-weight--heading !important;
+	line-height: 1;
+	margin-bottom: $margin--base;
 }
 
 .reveal blockquote {

@@ -1,6 +1,6 @@
 // ================================================================================
 // COMPONENT LEVEL: SASS
-// trevordmiller-icon
+// trevordmiller-avatar
 // Only contains Sass for this component.
 // ================================================================================
 
@@ -14,9 +14,7 @@
 // COMPONENT LEVEL: BEM BLOCK
 // ------------------------------------------------------------------------------
 
-.trevordmiller-icon {
-
-	path {
-		fill: $color--fill;
-	}
+.trevordmiller-avatar {
+	max-width: 15rem !important;
+	border-radius: 50%;
 }

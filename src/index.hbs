@@ -21,55 +21,52 @@
 
 			<!-- SLIDE: ABOUT -->
 			<section class="slide slide--section-title slide--about" data-background="#5dc4c6">
+				<img class="trevordmiller-avatar" src="images/trevor.jpg" alt="Trevor D. Miller" />
 				<h1>Hi there!</h1>
-				<h2>My name is Trevor.</h2>
-				{{> trevordmiller-follow }}
+				<h2 class="fragment roll-in">My name is Trevor.</h2>
+			</section>
+
+			<!-- SLIDE: SO EXCITED -->
+			<section class="slide slide--section-title" data-background="#5dc4c6">
+				<h1>How I feel...</h1>
+				<img class="fragment roll-in" src="images/excited-baby.jpg" alt="Excited baby" />
 			</section>
 
 			<!-- SLIDE: OVERVIEW -->
 			<section class="slide slide--section-title slide--overview" data-background="#5dc4c6">
 				<h1>Lesson Outline</h1>
 				<ul>
-					<li class="fragment roll-in">How the web works.</li>
-					<li class="fragment roll-in">How JS fits in with HTML &amp; CSS.</li>
-					<li class="fragment roll-in">Client vs Server.</li>
-					<li class="fragment roll-in">The Principles of TDD.</li>
-					<li class="fragment roll-in">Fundamental concepts of JS.</li>
-					<li class="fragment roll-in">Project: JS Koans.</li>
+					<li class="fragment roll-in"><span class="time">6:00 - 6:30:</span> Background.</li>
+					<li class="fragment roll-in"><span class="time">6:30 - 7:00:</span> Fundamental JS Concepts.</li>
+					<li class="fragment roll-in"><span class="time">7:00 - 9:00:</span> Project.</li>
 				</ul>
 			</section>
 
 			<!-- SLIDE: WARNING -->
 			<section class="slide slide--warning" data-background="#f96a5c">
 				<h1>Warning!</h1>
-				<h2>Hands on.</h2>
-				I'll call on you
-				Practice problems in slides.
-				<a href="https://github.com/trevordmiller/devmtn-js-fundamentals-1">https://github.com/trevordmiller/devmtn-js-fundamentals-1</a>
-				<h2>I'd like to invite you to follow along. Each section will include a question and a bit of practice that you can try for yourself.</h2>
+				<h2 class="fragment roll-in">This is a <em>flipped</em> classroom.</h2>
 				<ul>
-					<li>Clone</li>
-					<li><code>dist/index.html</code></li>
+					<li class="fragment roll-in">Fast paced.</li>
+					<li class="fragment roll-in">Hands on.</li>
+					<li class="fragment roll-in">Ask questions.</li>
+					<li class="fragment roll-in">I'll call on you.</li>
+					<li class="fragment roll-in">Don't feel dumb.</li>
+					<li class="fragment roll-in">Follow along at: <a href="temp-ip-address:3000">temp-ip-address:3000</a></li>
 				</ul>
 			</section>
 
-
-
-			<!-- ================================================ -->
-			<!-- SECTION -->
-			<!-- ================================================ -->
-			<section class="slide slide--section-title" data-background="#5dc4c6" data-transition="zoom">
-				<h1>How the web works.</h1>
-				<ul>
-					<li class="fragment roll-in">Points</li>
-				</ul>
-			</section>
-
-				<!-- SLIDE -->
-				<section class="slide">
-					<h2>Goal</h2>
-					<p>stuff</p>
-					{{> js-logo }}
+				<!-- QUIZ -->
+				<section class="slide slide--quiz">
+					<h1>Quiz</h1>
+					<ul>
+						<li class="fragment roll-in">What does a flipped classroom mean?</li>
+						<li class="fragment roll-in">When should you ask questions?</li>
+					</ul>
+					<div class="fragment roll-in">
+						<p>Say hello:</p>
+						<textarea></textarea>
+					</div>
 				</section>
 
 
@@ -77,36 +74,319 @@
 			<!-- ================================================ -->
 			<!-- SECTION -->
 			<!-- ================================================ -->
+
 			<section class="slide slide--section-title" data-background="#5dc4c6" data-transition="zoom">
-				<h1>How JS fits in with HTML &amp; CSS.</h1>
+				<h1>Background</h1>
 				<ul>
-					<li class="fragment roll-in">Points</li>
+					<li class="fragment roll-in">What is JS?</li>
+					<li class="fragment roll-in">Why do you need JS?</li>
+					<li class="fragment roll-in">How does JS fit in with HTML &amp; CSS?</li>
+					<li class="fragment roll-in">How the web works.</li>
+					<li class="fragment roll-in">Client vs Server.</li>
 				</ul>
 			</section>
 
 				<!-- SLIDE -->
 				<section class="slide">
-					<h2>Slide Heading</h2>
-					<p>Stuff</p>
+					<h1>What is JavaScript?</h1>
+					<ul>
+						<li class="fragment roll-in"><em>Nothing</em> to do with Java.</li>
+						<li class="fragment roll-in"><em>THE</em> most important language of the web.</li>
+						<li class="fragment roll-in">Used everywhere! Websites, apps, client side, server side, even machines.</li>
+						<li class="fragment roll-in">Provides <em>functionality</em>.</li>
+					</ul>
 				</section>
+
+					<!-- QUIZ -->
+					<section class="slide slide--quiz">
+						<h1>Quiz</h1>
+						<ul>
+							<li class="fragment roll-in">How does Java fit in with JavaScript?</li>
+							<li class="fragment roll-in">What is JavaScript?</li>
+						</ul>
+					</section>
+
+				<!-- SLIDE -->
+				<section class="slide">
+					<h1>Why do you need JS?</h1>
+					<ul>
+						<li class="fragment roll-in">Disable JS on <a href="http://twitter.com" target="_blank">Twitter</a>.</li>
+						<li class="fragment roll-in">Interact with the DOM.</li>
+						<li class="fragment roll-in">Events.</li>
+						<li class="fragment roll-in">Async goodness.</li>
+						<li class="fragment roll-in">Database layer.</li>
+					</ul>
+				</section>
+
+					<!-- QUIZ -->
+					<section class="slide slide--quiz">
+						<h1>Quiz</h1>
+						<ul>
+							<li class="fragment roll-in">Why do you need JavaScript?</li>
+							<li class="fragment roll-in">What does JavaScript do?</li>
+						</ul>
+					</section>
+
+				<!-- SLIDE -->
+				<section class="slide">
+					<h1>How does JS fit with HTML &amp; CSS?</h1>
+					<ul>
+						<li class="fragment roll-in">Script tags.</li>
+						<li class="fragment roll-in">External links.</li>
+						<li class="fragment roll-in">Inspect <a href="http://google.com" target="_blank">www.google.com</a>.</li>
+					</ul>
+				</section>
+
+					<!-- QUIZ -->
+					<section class="slide slide--quiz">
+						<h1>Quiz</h1>
+						<div class="fragment roll-in">
+							<p>How do you include JavaScript in your HTML?</p>
+							<textarea>
+								// Code here
+							</textarea>
+						</div>
+					</section>
+
+				<!-- SLIDE -->
+				<section class="slide">
+					<h1>How the web works.</h1>
+					<a class="button" href="http://alpha.ideavis.co/529cc5f/?utm_content=bufferd15ac&utm_source=buffer&utm_medium=twitter&utm_campaign=Buffer" target="_blank">Sweet diagram</a>
+				</section>
+
+					<!-- QUIZ -->
+					<section class="slide slide--quiz">
+						<h1>Quiz</h1>
+						<ul>
+							<li class="fragment roll-in">What do "front-end" and "back-end" mean?</li>
+							<li class="fragment roll-in">What is the difference between the client and the server?</li>
+							<li class="fragment roll-in">When does JavaScript run?</li>
+							<li class="fragment roll-in">What is the difference between JavaScript and jQuery?</li>
+							<li class="fragment roll-in">How does Angular fit in?</li>
+							<li class="fragment roll-in">...Node?</li>
+							<li class="fragment roll-in">What is <em>"BaaS"</em>?</li>
+							<li class="fragment roll-in">What is a database?</li>
+							<li class="fragment roll-in">What would happen to a tweet if Twitter didn't have a database?</li>
+						</ul>
+					</section>
 
 
 
 			<!-- ================================================ -->
 			<!-- SECTION -->
 			<!-- ================================================ -->
+
 			<section class="slide slide--section-title" data-background="#5dc4c6" data-transition="zoom">
-				<h1>Client vs Server.</h1>
+				<h1>Fundamental JS Concepts</h1>
 				<ul>
-					<li class="fragment roll-in">Points</li>
+					<li class="fragment roll-in">Comments.</li>
+					<li class="fragment roll-in">Variables.</li>
+					<li class="fragment roll-in">Conditional statements.</li>
+					<li class="fragment roll-in">Operators.</li>
+					<li class="fragment roll-in">Functions.</li>
+					<li class="fragment roll-in">The Principles of TDD.</li>
 				</ul>
 			</section>
 
 				<!-- SLIDE -->
 				<section class="slide">
-					<h2>Slide Heading</h2>
-					<p>Stuff</p>
+					<h1>Comments</h1>
+					<pre class="fragment roll-in">
+						<code>
+							// This is a single line comment.
+
+							/*
+							 * This is a multi line comment. Careful!
+							 */
+						</code>
+					</pre>
 				</section>
+
+					<!-- QUIZ -->
+					<section class="slide slide--quiz">
+						<h1>Quiz</h1>
+						<div class="fragment roll-in">
+							<p>Write a single line comment:</p>
+							<textarea></textarea>
+						</div>
+					</section>
+
+				<!-- SLIDE -->
+				<section class="slide">
+					<h1>Operators</h1>
+					<ul>
+						<li><code>=</code> | Assignment.</li>
+						<li><code>==</code> | Compares values.</li>
+						<li><code>===</code> | Compares values and types.</li>
+						<li><code><</code> | Less than.</li>
+						<li><code>></code> | Greater than.</li>
+						<li><code><=</code> | Less than or equal to.</li>
+						<li><code>>=</code> | Greater than or equal to.</li>
+						<li>Truthy vs Falsy.</li>
+					</ul>
+				</section>
+
+					<!-- QUIZ -->
+					<section class="slide slide--quiz">
+						<h1>Quiz</h1>
+						<ul>
+							<li class="fragment roll-in">What is the difference between <code>=</code>, <code>==</code>, and <code>===</code>?</li>
+						</ul>
+					</section>
+
+				<!-- SLIDE -->
+				<section class="slide">
+					<h1>Variables</h1>
+					<pre class="fragment roll-in">
+						<code>
+
+							// Declare a variable.
+							var variableName;
+
+							// Initialize the variable.
+							variableName = 42;
+
+							// Declare and initialize at the same time.
+							var variableName = 42;
+						</code>
+					</pre>
+				</section>
+
+					<!-- QUIZ -->
+					<section class="slide slide--quiz">
+						<h1>Quiz</h1>
+						<div class="fragment roll-in">
+							<p>Declare and initialize a variable:</p>
+							<textarea></textarea>
+						</div>
+					</section>
+
+				<!-- SLIDE -->
+				<section class="slide">
+					<h1>If Statements</h1>
+					<pre class="fragment roll-in">
+						<code>
+							// Template
+							if (condition) {
+								// code
+							}
+
+							// Example
+							var hoursPerDay = 24;
+							if (hoursPerDay === 24) {
+								alert("If only there were more...");
+							}
+						</code>
+					</pre>
+				</section>
+
+					<!-- QUIZ -->
+					<section class="slide slide--quiz">
+						<h1>Quiz</h1>
+						<div class="fragment roll-in">
+							<p>Write an if statement:</p>
+							<textarea></textarea>
+						</div>
+					</section>
+
+				<!-- SLIDE -->
+				<section class="slide">
+					<h1>Functions</h1>
+					<p class="fragment roll-in">Functons: re-usable chunks of code.</p>
+					<pre class="fragment roll-in">
+						<code>
+							// Template
+							function functionName(optional parameter1, parameter2 etc) {
+								// Code
+
+								// Optional return statement
+							}
+
+							// Function declaration
+							function getGreeting(name) {
+								return "Hello " + name + "!";
+							}
+
+							// Store a name
+							var myName = "Bob";
+
+							// Call the function, passing in a name, and store the return value
+							var greeting = functionName(myName);
+
+							// What is "greeting"?
+						</code>
+					</pre>
+				</section>
+
+					<!-- QUIZ -->
+					<section class="slide slide--quiz">
+						<h1>Quiz</h1>
+						<ul>
+							<li class="fragment roll-in">What is a function?</li>
+							<li class="fragment roll-in">What does a <code>return</code> statement do?</li>
+							<li class="fragment roll-in">What is a parameter?</li>
+						</ul>
+						<div class="fragment roll-in">
+							<p>Write a function to alert a day of the week:</p>
+							<textarea></textarea>
+						</div>
+					</section>
+
+				<section class="slide">
+					<h1>Functions Continued</h1>
+					<ul>
+						<li class="fragment roll-in"><code>functionName</code> vs <code>functionName()</code></li>
+						<li class="fragment roll-in">Function expression vs declaration.</li>
+					</ul>
+				</section>
+
+					<!-- QUIZ -->
+					<section class="slide slide--quiz">
+						<h1>Quiz</h1>
+						<ul>
+							<li class="fragment roll-in">What's the difference between <code>toggleMenu</code> and <code>toggleMenu()</code>?</li>
+							<li class="fragment roll-in">What's the difference between function expression and declaration?</li>
+						</ul>
+					</section>
+
+				<!-- SLIDE -->
+				<section class="slide">
+					<h1>The Principles of TDD.</h1>
+					<p><small>TDD = Test Driven Development.</small></p>
+					<p>Start with a goal in mind.</p>
+					<ol>
+						<li class="fragment roll-in">Write a test.</li>
+						<li class="fragment roll-in">Make the test pass.</li>
+						<li class="fragment roll-in">Refactor.</li>
+					</ol>
+				</section>
+
+					<!-- QUIZ -->
+					<section class="slide slide--quiz">
+						<h1>Quiz</h1>
+						<ul>
+							<li class="fragment roll-in">What is TDD?</li>
+						</ul>
+					</section>
+
+
+
+			<!-- ================================================ -->
+			<!-- SECTION -->
+			<!-- ================================================ -->
+
+			<!-- SLIDE -->
+			<section class="slide slide--section-title slide--end" data-background="#5dc4c6">
+				<h1>Project</h1>
+				<ol>
+					<li class="fragment roll-in">Clone the JS Koans repo: <a href="https://github.com/devmountain/js-koans">github.com/devmountain/js-koans</a></li>
+					<li class="fragment roll-in">Follow the instructions in the repo's README.</li>
+					<li class="fragment roll-in">Make the tests pass in each file up until "AboutArrays.js"</li>
+					<li class="fragment roll-in">Really try to understand the code.</li>
+					<li class="fragment roll-in">If you need help, try Google, Stack Overflow, me or a classmate.</li>
+					<li class="fragment roll-in">If you finish early, please help others ;)</li>
+				</ol>
+			</section>
 
 
 
@@ -116,23 +396,29 @@
 
 			<!-- SLIDE -->
 			<section class="slide slide--section-title slide--end" data-background="#5dc4c6">
-				<h1>Summary</h1>
-				<p>If you forget everything about this or you zoned out or whatever...the gist of it all is:</p>
-				<ol>
-					<li>Primer is pretty cool.</li>
-					<li>Read the documentation.</li>
-					<li>Setup everything in the "Prerequisites" section.</li>
-					<li>Run <code>yo primer</code> to create "projects".</li>
-					<li>Run <code>yo primer:component</code> to create "components".</li>
-				</ol>
+				<h1>For review...</h1>
+ 				<a href="http://trevordmiller.github.io/devmtn-js-fundamentals-1/dist/">http://trevordmiller.github.io/devmtn-js-fundamentals-1/dist</a>
 			</section>
 
 			<!-- SLIDE -->
 			<section class="slide slide--section-title slide--end" data-background="#5dc4c6">
-				<h1>Give it a try!</h1>
-				<p><a target="_blank" href="https://code.ldschurch.org/stash/projects/PRIMER">https://code.ldschurch.org/stash/projects/PRIMER</a></p>
+				<h1>Next lesson</h1>
+				<h2>JavaScript Fundamentals: Part 2</h2>
+				<ul>
+					<li class="fragment roll-in">For loops.</li>
+					<li class="fragment roll-in">While loops.</li>
+					<li class="fragment roll-in">Arrays.</li>
+					<li class="fragment roll-in">Array methods.</li>
+					<li class="fragment roll-in">Project.</li>
+				</ul>
 			</section>
 
+			<!-- SLIDE -->
+			<!-- SLIDE -->
+			<section class="slide slide--section-title slide--end" data-background="#5dc4c6">
+				<h1>Thanks!</h1>
+				{{> trevordmiller-follow }}
+			</section>
 		</div>
 	</div>
 
