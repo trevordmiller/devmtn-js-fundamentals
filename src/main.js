@@ -10,6 +10,8 @@
 
 	// Initialize revealjs when page has loaded
 	document.addEventListener('DOMContentLoaded', function() {
+
+		// REVEAL
 		Reveal.initialize({
 
 			// Display controls in the bottom right corner
@@ -58,7 +60,7 @@
 			autoSlideStoppable: true,
 
 			// Enable slide navigation via mouse wheel
-			mouseWheel: true,
+			mouseWheel: false,
 
 			// Hides the address bar on mobile devices
 			hideAddressBar: true,

@@ -8,7 +8,6 @@
 		<script src="all.min.js"></script>
 		<script src="partials.js"></script>
 		<script src="templates.js"></script>
-
 	</head>
 
 	<body>
@@ -25,6 +24,13 @@
 			// RENDER THE TEMPLATE
 			document.body.innerHTML = Handlebars.Templates['index.hbs'](context);
 		})();
+	</script>
+
+	<!-- Ace editor -->
+	<script>
+		var editor = ace.edit('editor');
+		editor.setTheme("ace/theme/twilight");
+		editor.getSession().setMode("ace/mode/javascript");
 	</script>
 
 </html>

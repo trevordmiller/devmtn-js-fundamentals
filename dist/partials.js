@@ -25,7 +25,7 @@ helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
   
 
 
-  return "\n	<head>\n\n		<!-- PROJECT LEVEL: CONFIG -->\n		<title>DevMountain | JavaScript Fundamentals: Part 1</title>\n		<meta name=\"description\" content=\"An HTML slide deck to help teach the DevMountain lesson.\" />\n		<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, minimal-ui\" />\n		<meta charset=\"utf-8\" />\n\n		<!-- REVEALJS STYLE DEPENDENCIES -->\n		<link rel=\"stylesheet\" href=\"reveal.js/css/reveal.min.css\">\n		<link rel=\"stylesheet\" href=\"reveal.js/css/theme/simple.css\" id=\"theme\">\n\n		<!-- FONTS -->\n		<link href='http://fonts.googleapis.com/css?family=Raleway:400,100' rel='stylesheet' type='text/css'>\n\n		<!-- PROJECT LEVEL: STYLES -->\n		<link rel=\"stylesheet\" href=\"all.min.css\" />\n	</head>\n\n	<body>\n\n		<!-- PROJECT LEVEL: HEADER -->\n";
+  return "\n	<head>\n\n		<!-- PROJECT LEVEL: CONFIG -->\n		<title>DevMountain | JavaScript Fundamentals: Part 1</title>\n		<meta name=\"description\" content=\"An HTML slide deck to help teach the DevMountain lesson.\" />\n		<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, minimal-ui\" />\n		<meta charset=\"utf-8\" />\n\n		<!-- REVEALJS STYLE DEPENDENCIES -->\n		<link rel=\"stylesheet\" href=\"reveal.js/css/reveal.min.css\">\n		<link rel=\"stylesheet\" href=\"reveal.js/css/theme/simple.css\" id=\"theme\">\n\n		<!-- FONTS -->\n		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>\n\n		<!-- PROJECT LEVEL: STYLES -->\n		<link rel=\"stylesheet\" href=\"all.min.css\" />\n	</head>\n\n	<body>\n\n		<!-- PROJECT LEVEL: HEADER -->\n";
   }));
 
 Handlebars.registerPartial("progress-bar", Handlebars.template(function (Handlebars,depth0,helpers,partials,data) {
@@ -61,16 +61,16 @@ helpers = this.merge(helpers, Handlebars.helpers); partials = this.merge(partial
   var buffer = "", stack1, self=this;
 
 
-  buffer += "<!-- COMPONENT LEVEL: HTML -->\n<!-- trevordmiller-icon -->\n\n<!-- BEM BLOCK -->\n<section class=\"trevordmiller-icon\">\n\n	<!-- BEM ELEMENTS -->\n	";
+  buffer += "<!-- COMPONENT LEVEL: HTML -->\n<!-- trevordmiller-icon -->\n\n<!-- BEM BLOCK -->\n<section class=\"trevordmiller-follow\">\n\n	<!-- BEM ELEMENTS -->\n	<h1>Thanks!</h1>\n\n	<div class=\"trevordmiller-follow__link\">\n		<div class=\"trevordmiller-follow__icon\">\n			";
   stack1 = self.invokePartial(partials.github, 'github', depth0, helpers, partials, data);
   if(stack1 || stack1 === 0) { buffer += stack1; }
-  buffer += "\n	";
+  buffer += "\n		</div>\n		<div class=\"trevordmiller-follow__handle\">\n			@trevordmiller\n		</div>\n	</div>\n	<div class=\"trevordmiller-follow__link\">\n		<div class=\"trevordmiller-follow__icon\">\n			";
   stack1 = self.invokePartial(partials.twitter, 'twitter', depth0, helpers, partials, data);
   if(stack1 || stack1 === 0) { buffer += stack1; }
-  buffer += "\n	";
+  buffer += "\n		</div>\n		<div class=\"trevordmiller-follow__handle\">\n			@trevor_d_miller\n		</div>\n	</div>\n	<div class=\"trevordmiller-follow__link\">\n		<div class=\"trevordmiller-follow__icon\">\n			";
   stack1 = self.invokePartial(partials.website, 'website', depth0, helpers, partials, data);
   if(stack1 || stack1 === 0) { buffer += stack1; }
-  buffer += "\n	@trevordmiller\n\n</section>\n";
+  buffer += "\n		</div>\n		<div class=\"trevordmiller-follow__handle\">\n			trevordmiller.com\n		</div>\n	</div>\n\n</section>\n";
   return buffer;
   }));
 

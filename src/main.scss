@@ -17,16 +17,16 @@ $breakpoint--mobile: 640px;
 
 // COLORS
 $color--fill: #fff;
-$color--primary: #5dc4c6;
-$color--light-primary: #b0e1e2;
-$color--dark-primary: #3ea7a7;
+$color--primary: #24abe2;
+$color--light-primary: #b2e6f5;
+$color--dark-primary: #009ac8;
 $color--primary-compound: #f96a5c;
 $color--dark-gray: #333333;
 $color--light-gray: #cccccc;
 $color--lightest-gray: #efefef;
 
 // BORDER RADIUS
-$border-radius--base: 5px;
+$border-radius--base: 7px;
 
 // SPACING
 $margin--base: 1.3rem;
@@ -47,7 +47,7 @@ $padding--larger: ($padding--base * 4);
 }
 
 // TYPOGRAPHY
-$font-family--primary: 'Raleway', sans-serif;
+$font-family--primary: 'Open Sans', sans-serif;;
 $font-family--secondary: Monaco, monospace;
 $font-weight--heading: 100;
 $font-weight--base: 400;
@@ -80,7 +80,7 @@ $transition-speed--base: .3s;
 @import 'global-components/primer-style-reset/_primer-style-reset.scss';
 
 // REVEAL RESET
-$font-family--primary: 'Raleway', sans-serif;
+$font-family--primary: 'Open Sans', sans-serif;;
 $font-family--secondary: Monaco, monospace;
 
 .reveal * {
@@ -97,6 +97,10 @@ $font-family--secondary: Monaco, monospace;
 	font-weight: $font-weight--heading !important;
 	line-height: 1;
 	margin-bottom: $margin--base;
+}
+
+.reveal h1 {
+	font-size: 5.2rem !important;
 }
 
 .reveal blockquote {
@@ -134,6 +138,20 @@ $font-family--secondary: Monaco, monospace;
 .reveal code {
 	color: $color--dark-primary !important;
 	font-family: $font-family--secondary !important;
+}
+
+#editor {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+textarea {
+	width: 30rem !important;
+	height: 10rem !important;
+	font-size: 1.8rem !important;
 }
 
 

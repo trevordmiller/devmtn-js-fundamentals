@@ -14,7 +14,26 @@
 // COMPONENT LEVEL: BEM BLOCK
 // ------------------------------------------------------------------------------
 
-.trevordmiller-icon {
+.trevordmiller-follow {
+	display: flex;
+	flex-direction: row;
+
+	// BEM ELEMENTS
+
+	&__link {
+		flex: 1;
+		padding: $padding--base !important;
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__icon {
+		flex: 1;
+	}
+
+	&__handle {
+		flex: 1;
+	}
 
 	path {
 		fill: $color--fill;

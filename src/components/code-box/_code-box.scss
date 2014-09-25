@@ -1,6 +1,6 @@
 // ================================================================================
 // COMPONENT LEVEL: SASS
-// slide
+// code-box
 // Only contains Sass for this component.
 // ================================================================================
 
@@ -14,50 +14,7 @@
 // COMPONENT LEVEL: BEM BLOCK
 // ------------------------------------------------------------------------------
 
-.slide {
-
-	// BEM ELEMENTS
-	&__emphasis {
-		color: $color--dark-primary !important;
-	}
-
-	a {
-		@extend %transition--base;
-		color: $color--primary !important;
-
-		&:hover,
-		&:active {
-			color: $color--light-primary !important;
-		}
-	}
-
-	// BEM MODIFIERS
-	&--section-title {
-		h1 {
-			color: $color--fill !important;
-		}
-
-		* {
-			color: $color--light-primary !important;
-		}
-
-		a {
-			color: $color--fill !important;
-		}
-	}
-
-	&--warning {
-
-		h1 {
-			color: $color--fill !important;
-		}
-
-		* {
-			color: $color--fill !important;
-		}
-
-		a {
-			color: $color--fill !important;
-		}
-	}
+.code-box {
+	width: 30rem !important;
+	height: 15rem !important;
 }
